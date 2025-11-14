@@ -93,7 +93,9 @@ btn.addEventListener("click", function () {
   console.log(ran);
 
   Fname.innerText = ran.fullTeamName;
+  Fname.style.color = ran.secondaryColor
   Cname.innerText = ran.captain;
+  Cname.style.color = ran.secondaryColor
   trophies.innerText = ran.trophies;
   body.style.backgroundColor = ran.secondaryColor
   sec.style.backgroundColor = ran.primaryColor
